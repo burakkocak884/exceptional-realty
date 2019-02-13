@@ -1,4 +1,6 @@
 <!doctype html>
+
+
 <html lang="en">
 
 <head> 
@@ -42,7 +44,7 @@ The head section contains infofor search engines and the browser and  is not see
   <p> Hello World. </p>
 
   <p> Hello Moon. </p>
- <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit, sed do eiusmod
+ <p> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed do eiusmod
  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -63,10 +65,33 @@ The head section contains infofor search engines and the browser and  is not see
 
 
 
+<form action = "process-user.php" method = "post"> 
+<input type="text" name="full-name">
+<input type="password" name="password">
+<input type="submit" name="submit">
+</form>
+<form>
+<input type="radio" name="sex" value ="male">Male
+<input type="radio" name="sex" value = "female">Female
+
+</form>
+
+<form>
+  <input type="checkbox" name="vehicle-1" value ="bike"> I have a bike
+  <input type="checkbox" name="vehicle-2" value = "car"> I have a car
 
 
+</form>
+<select name = "size">
+  <option value="small" selected>small</option>
+  <option value="medium">meduim</option>
+  <option  value="large">large </option>  
 
 
+</select>
+
+
+<textarea name = "message"></textarea>
 
 
 
